@@ -11,6 +11,5 @@ def split_bill(price):
     print(f"一人{each}円です。")
   finally:
     print('ご利用ありがとうございます。')
-    print('finally')
   if __name__ == "__main__":
     split_bill(10000)
