@@ -7,6 +7,5 @@ def myfunc():
 def anotherfunc():
     print("This is another function!!")
 
-
 def _internal_use_only():
     print("I'm internal use only!!")

@@ -15,3 +15,8 @@ import mymodule  # as mmとすると，as以降に指定した名前でアクセ
 # mymodule.xxの形でグローバル変数や関数にアクセスできる
 mymodule.myfunc()
 print(mymodule.global_variable)
+
+print(sys.path)
+
+# ★sys.path.append('/path/to/my/module')  # モジュールのパスを追加することができる
+# ★→外部で使用しているモジュールのパスを追加し、その呼び出し先でモジュールを使用可能
