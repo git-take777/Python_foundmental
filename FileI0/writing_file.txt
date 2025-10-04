@@ -1,0 +1,2 @@
+
+You add senetences to the last of the file content with a+ mode
